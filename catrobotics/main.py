@@ -11,7 +11,6 @@ import socket
 
 sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
 
-
 host = '10.0.0.65'  # Standard loopback interface address
 port = 5001        # Port to listen on (non-privileged ports are > 1023)
 
